@@ -1,6 +1,5 @@
 import React from 'react';
 
-import { format } from 'date-fns';
 import { GetStaticPaths, GetStaticProps } from 'next';
 
 import { Content } from '../../content/Content';
@@ -39,10 +38,6 @@ const DisplayPost = (props: IPostProps) => (
     <h1 className="text-center font-bold text-3xl text-gray-900">
       {props.title}
     </h1>
-    <div className="text-center text-sm mb-8">
-      {format(new Date(props.date), 'LLLL d, yyyy')}
-    </div>
-
     <Content>
       <div
         // eslint-disable-next-line react/no-danger

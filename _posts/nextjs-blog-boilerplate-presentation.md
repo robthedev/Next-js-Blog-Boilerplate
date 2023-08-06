@@ -6,7 +6,7 @@ modified_date: '2020-06-01'
 image: /assets/images/posts/random-img.jpg
 ---
 
-[![Nextjs starter banner](@@baseUrl@@/assets/images/nextjs-starter-banner.png)](https://creativedesignsguru.com/demo/Nextjs-Blog-Boilerplate/)
+![Nextjs starter banner](@@baseUrl@@/assets/images/nextjs-starter-banner.png)
 
 ## Next js Blog Boilerplate with Tailwind CSS
 
